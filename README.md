@@ -62,6 +62,15 @@ El script:
 
 ---
 
+## Resultado obtenido
+
+El proyecto generó exitosamente:
+
+- Base de datos MySQL
+- Tabla personas_andres
+- 100000 registros ficticios
+- Inserción automática usando SQLAlchemy
+
 Autor:
 
 Andrés Ospina
