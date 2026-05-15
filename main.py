@@ -13,6 +13,7 @@ from dotenv import load_dotenv
 import os
 
 
+# Cargar variables del archivo .env
 load_dotenv()
 
 usuario = os.getenv("MYSQL_USER")
@@ -21,6 +22,7 @@ host = os.getenv("MYSQL_HOST")
 puerto = os.getenv("MYSQL_PORT")
 bd = os.getenv("MYSQL_DATABASE")
 
+# Conexión a MySQL usando SQLAlchemy
 
 conexion = (
 f"mysql+pymysql://{usuario}:{password}@{host}:{puerto}/{bd}"
