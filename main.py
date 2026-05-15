@@ -52,9 +52,11 @@ tabla = Table(
 
 )
 
+# Generador de datos ficticios colombianos
 
 fake = Faker("es_CO")
 
+# Función para crear registros aleatorios
 
 def generar():
 
