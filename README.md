@@ -1,19 +1,67 @@
 # Taller 3 - Bases de Datos con Python
 
-Proyecto desarrollado usando:
+Proyecto desarrollado para el Taller 3 utilizando:
 
 - Python
 - SQLAlchemy
 - Faker
 - MySQL
-- Git/GitHub
+- Git y GitHub
 
-Objetivo:
-Crear y poblar una base de datos MySQL con
-100.000 registros usando datos ficticios.
+## Objetivo
 
-## Instalación
+Crear una base de datos MySQL y poblarla automáticamente
+con 100.000 registros ficticios usando Faker y SQLAlchemy.
+
+---
+
+## Base de datos
+
+Nombre BD:
+
+```txt
+taller_python
+```
+
+Tabla creada:
+
+```txt
+personas_andres
+```
+
+---
+
+## Librerías utilizadas
+
+Instalar dependencias:
 
 ```bash
 pip install -r requirements.txt
+```
 
+---
+
+## Ejecución
+
+Ejecutar el proyecto:
+
+```bash
+python3 main.py
+```
+
+---
+
+## Resultado esperado
+
+El script:
+
+- Crea tabla automáticamente
+- Genera datos falsos
+- Inserta 100000 registros
+- Guarda datos en MySQL
+
+---
+
+Autor:
+
+Andrés Ospina
